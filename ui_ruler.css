@@ -4,127 +4,130 @@
     box-sizing: content-box;
 }
 .ruler.ruler-h.ruler-px{
-    background: repeating-linear-gradient(90deg,transparent 0,transparent 9px,#666 9px, #666 10px,transparent 0, transparent 10px  ) 0px 100% / 100% 10px no-repeat
-    , repeating-linear-gradient(90deg,transparent 0, transparent 4px,#ccc 4px, #ccc 5px,transparent 0, transparent 10px ) 0px 100% / 100% 6px no-repeat
+    background:
+    linear-gradient(90deg,transparent 0,transparent 9px,#666 9px, #666 10px,transparent 0, transparent 10px  ) 0px 100% / 10px 10px repeat-x
+    , linear-gradient(90deg,transparent 0, transparent 4px,#ccc 4px, #ccc 5px,transparent 0, transparent 10px ) 0px 100% / 10px 6px repeat-x
     ;
 }
+
 .ruler.ruler-h.ruler-pt{
     background:
-    repeating-linear-gradient(90deg,transparent 0, transparent calc(10pt - 1px),#666 calc(10pt - 1px), #666 10pt,transparent 0, transparent 10pt  ) 0px 100% / 100% 10px no-repeat
-    , repeating-linear-gradient(90deg,transparent 0, transparent calc(5pt - 1px),#999 calc(5pt - 1px), #999 5pt,transparent 0, transparent 10pt ) 0px 100% / 100% 6px no-repeat
+    linear-gradient(90deg,transparent 0, transparent calc(10pt - 1px),#666 calc(10pt - 1px), #666 10pt,transparent 0, transparent 10pt  ) 0px 100% / 10pt 10px repeat-x
+    , linear-gradient(90deg,transparent 0, transparent calc(5pt - 1px),#999 calc(5pt - 1px), #999 5pt,transparent 0, transparent 10pt ) 0px 100% / 10pt 6px repeat-x
     ;
 }
 .ruler.ruler-h.ruler-mm{
     background:
-    repeating-linear-gradient(90deg,transparent 0, transparent calc(10mm - 1px),#666 calc(10mm - 1px), #666 10mm,transparent 0, transparent 10mm  ) 0px 100% / 100% 10px no-repeat
-    , repeating-linear-gradient(90deg,transparent 0, transparent calc(5mm - 1px),#999 calc(5mm - 1px), #999 5mm,transparent 0, transparent 10mm ) 0px 100% / 100% 6px no-repeat
-    , repeating-linear-gradient(90deg,
+    linear-gradient(90deg,transparent 0, transparent calc(10mm - 1px),#666 calc(10mm - 1px), #666 10mm,transparent 0, transparent 10mm  ) 0px 100% / 10mm 10px repeat-x
+    , linear-gradient(90deg,transparent 0, transparent calc(5mm - 1px),#999 calc(5mm - 1px), #999 5mm,transparent 0, transparent 10mm ) 0px 100% / 10mm 6px repeat-x
+    /* , linear-gradient(90deg,transparent 0, transparent calc(1mm - 1px),#ccc calc(1mm - 1px), #ccc 1mm,transparent 0, transparent 1mm ) 0px 100% / 1mm 3px repeat-x */
+    , linear-gradient(90deg,
         transparent 0mm, transparent calc(1mm - 1px), #ccc calc(1mm - 1px), #ccc 1mm,
         transparent 1mm, transparent calc(2mm - 1px), #ccc calc(2mm - 1px), #ccc 2mm,
         transparent 2mm, transparent calc(3mm - 1px), #ccc calc(3mm - 1px), #ccc 3mm,
         transparent 3mm, transparent calc(4mm - 1px), #ccc calc(4mm - 1px), #ccc 4mm,
         transparent 0mm, transparent 5mm
-        ) 0px 100% / 100% 3px no-repeat
+        ) 0px 100% / 5mm 3px repeat-x
     ;
 }
 .ruler.ruler-h.ruler-pc{
     background:
-    repeating-linear-gradient(90deg,transparent 0, transparent calc(10pc - 1px),#666 calc(10pc - 1px), #666 10pc,transparent 0, transparent 10pc  ) 0px 100% / 100% 10px no-repeat
-    , repeating-linear-gradient(90deg,transparent 0, transparent calc(5pc - 1px),#999 calc(5pc - 1px), #999 5pc,transparent 0, transparent 10pc ) 0px 100% / 100% 6px no-repeat
-    , repeating-linear-gradient(90deg,
+    linear-gradient(90deg,transparent 0, transparent calc(10pc - 1px),#666 calc(10pc - 1px), #666 10pc,transparent 0, transparent 10pc  ) 0px 100% / 10pc 10px repeat-x
+    , linear-gradient(90deg,transparent 0, transparent calc(5pc - 1px),#999 calc(5pc - 1px), #999 5pc,transparent 0, transparent 10pc ) 0px 100% / 10pc 6px repeat-x
+    , linear-gradient(90deg,
         transparent 0pc, transparent calc(1pc - 1px), #ccc calc(1pc - 1px), #ccc 1pc,
         transparent 1pc, transparent calc(2pc - 1px), #ccc calc(2pc - 1px), #ccc 2pc,
         transparent 2pc, transparent calc(3pc - 1px), #ccc calc(3pc - 1px), #ccc 3pc,
         transparent 3pc, transparent calc(4pc - 1px), #ccc calc(4pc - 1px), #ccc 4pc,
         transparent 0pc, transparent 5pc
-        ) 0px 100% / 100% 3px no-repeat
+        ) 0px 100% / 5pc 3px repeat-x
     ;
 }
 .ruler.ruler-h.ruler-in{
     background:
-    repeating-linear-gradient(90deg,transparent 0, transparent calc(10in - 1px),#666 calc(10in - 1px), #666 10in,transparent 0, transparent 10in  ) 0px 100% / 100% 10px no-repeat
-    , repeating-linear-gradient(90deg,transparent 0, transparent calc(5in - 1px),#999 calc(5in - 1px), #999 5in,transparent 0, transparent 10in ) 0px 100% / 100% 6px no-repeat
-    , repeating-linear-gradient(90deg,transparent 0, transparent calc(1in - 1px),#ccc calc(1in - 1px), #ccc 1in,transparent 0, transparent 1in ) 0px 100% / 100% 3px no-repeat
-    /* , repeating-linear-gradient(90deg,
+    linear-gradient(90deg,transparent 0, transparent calc(10in - 1px),#666 calc(10in - 1px), #666 10in,transparent 0, transparent 10in  ) 0px 100% / 10in 10px repeat-x
+    , linear-gradient(90deg,transparent 0, transparent calc(5in - 1px),#999 calc(5in - 1px), #999 5in,transparent 0, transparent 10in ) 0px 100% / 10in 6px repeat-x
+    , linear-gradient(90deg,transparent 0, transparent calc(1in - 1px),#ccc calc(1in - 1px), #ccc 1in,transparent 0, transparent 1in ) 0px 100% / 1in 3px repeat-x
+    /* , linear-gradient(90deg,
         transparent 0in, transparent calc(1in - 1px), #ccc calc(1in - 1px), #ccc 1in,
         transparent 1in, transparent calc(2in - 1px), #ccc calc(2in - 1px), #ccc 2in,
         transparent 2in, transparent calc(3in - 1px), #ccc calc(3in - 1px), #ccc 3in,
         transparent 3in, transparent calc(4in - 1px), #ccc calc(4in - 1px), #ccc 4in,
         transparent 0in, transparent 5in
-        ) 0px 100% / 100% 3px no-repeat */
+        ) 0px 100% / 5in 3px repeat-x */
     ;
 }
 /* vertical */
 .ruler.ruler-v.ruler-px{
-    background: repeating-linear-gradient(180deg,transparent 0,transparent 9px,#666 9px, #666 10px,transparent 0, transparent 10px  ) 100% 0% / 10px 100% no-repeat
-    , repeating-linear-gradient(180deg,transparent 0, transparent 4px,#ccc 4px, #ccc 5px,transparent 0, transparent 5px ) 100% 0% / 6px 100% no-repeat
+    background: linear-gradient(180deg,transparent 0,transparent 9px,#666 9px, #666 10px,transparent 0, transparent 10px  ) 100% 0% / 10px 10px repeat-y
+    , linear-gradient(180deg,transparent 0, transparent 4px,#ccc 4px, #ccc 5px,transparent 0, transparent 10px ) 100% 0% / 6px 10px repeat-y
     ;
 }
 .ruler.ruler-v.ruler-pt{
-    background: repeating-linear-gradient(180deg,transparent 0, transparent calc(10pt - 1px),#666 calc(10pt - 1px), #666 10pt,transparent 0, transparent 10pt  ) 100% 0% / 10px 100% no-repeat
-    , repeating-linear-gradient(180deg,transparent 0, transparent calc(5pt - 1px),#999 calc(5pt - 1px), #999 5pt,transparent 0, transparent 10pt ) 100% 0% / 6px 100% no-repeat
+    background: linear-gradient(180deg,transparent 0, transparent calc(10pt - 1px),#666 calc(10pt - 1px), #666 10pt,transparent 0, transparent 10pt  ) 100% 0% / 10px 10pt repeat-y
+    , linear-gradient(180deg,transparent 0, transparent calc(5pt - 1px),#999 calc(5pt - 1px), #999 5pt,transparent 0, transparent 10pt ) 100% 0% / 6px 10pt repeat-y
     ;
 }
 .ruler.ruler-v.ruler-mm{
     background:
-    repeating-linear-gradient(180deg,transparent 0, transparent calc(10mm - 1px),#666 calc(10mm - 1px), #666 10mm,transparent 0, transparent 10mm  ) 100% 0% / 10px 100% no-repeat
-    , repeating-linear-gradient(180deg,transparent 0, transparent calc(5mm - 1px),#999 calc(5mm - 1px), #999 5mm,transparent 0, transparent 10mm ) 100% 0% / 6px 100% no-repeat
-    /* , repeating-linear-gradient(180deg,transparent 0, transparent calc(1mm - 1px),#ccc calc(1mm - 1px), #ccc 1mm,transparent 0, transparent 1mm ) 100% 0% / 3px 100% no-repeat */
-    , repeating-linear-gradient(180deg,
+    linear-gradient(180deg,transparent 0, transparent calc(10mm - 1px),#666 calc(10mm - 1px), #666 10mm,transparent 0, transparent 10mm  ) 100% 0% / 10px 10mm repeat-y
+    , linear-gradient(180deg,transparent 0, transparent calc(5mm - 1px),#999 calc(5mm - 1px), #999 5mm,transparent 0, transparent 10mm ) 100% 0% / 6px 10mm repeat-y
+    /* , linear-gradient(180deg,transparent 0, transparent calc(1mm - 1px),#ccc calc(1mm - 1px), #ccc 1mm,transparent 0, transparent 1mm ) 100% 0% / 3px 1mm repeat-y */
+    , linear-gradient(180deg,
         transparent 0mm, transparent calc(1mm - 1px), #ccc calc(1mm - 1px), #ccc 1mm,
         transparent 1mm, transparent calc(2mm - 1px), #ccc calc(2mm - 1px), #ccc 2mm,
         transparent 2mm, transparent calc(3mm - 1px), #ccc calc(3mm - 1px), #ccc 3mm,
         transparent 3mm, transparent calc(4mm - 1px), #ccc calc(4mm - 1px), #ccc 4mm,
         transparent 0mm, transparent 5mm
-        ) 100% 0% / 3px 100% no-repeat
+        ) 100% 0% / 3px 5mm repeat-y
     ;
     ;
 }
 .ruler.ruler-v.ruler-pc{
     background:
-    repeating-linear-gradient(180deg,transparent 0, transparent calc(10pc - 1px),#666 calc(10pc - 1px), #666 10pc,transparent 0, transparent 10pc  ) 100% 0% / 10px 100% no-repeat
-    , repeating-linear-gradient(180deg,transparent 0, transparent calc(5pc - 1px),#999 calc(5pc - 1px), #999 5pc,transparent 0, transparent 10pc ) 100% 0% / 6px 100% no-repeat
-    /* , repeating-linear-gradient(180deg,transparent 0, transparent calc(1pc - 1px),#ccc calc(1pc - 1px), #ccc 1pc,transparent 0, transparent 1pc ) 100% 0% / 3px 100% no-repeat */
-    , repeating-linear-gradient(180deg,
+    linear-gradient(180deg,transparent 0, transparent calc(10pc - 1px),#666 calc(10pc - 1px), #666 10pc,transparent 0, transparent 10pc  ) 100% 0% / 10px 10pc repeat-y
+    , linear-gradient(180deg,transparent 0, transparent calc(5pc - 1px),#999 calc(5pc - 1px), #999 5pc,transparent 0, transparent 10pc ) 100% 0% / 6px 10pc repeat-y
+    /* , linear-gradient(180deg,transparent 0, transparent calc(1pc - 1px),#ccc calc(1pc - 1px), #ccc 1pc,transparent 0, transparent 1pc ) 100% 0% / 3px 1pc repeat-y */
+    , linear-gradient(180deg,
         transparent 0pc, transparent calc(1pc - 1px), #ccc calc(1pc - 1px), #ccc 1pc,
         transparent 1pc, transparent calc(2pc - 1px), #ccc calc(2pc - 1px), #ccc 2pc,
         transparent 2pc, transparent calc(3pc - 1px), #ccc calc(3pc - 1px), #ccc 3pc,
         transparent 3pc, transparent calc(4pc - 1px), #ccc calc(4pc - 1px), #ccc 4pc,
         transparent 0pc, transparent 5pc
-        ) 100% 0% / 3px 100% no-repeat
+        ) 100% 0% / 3px 5pc repeat-y
     ;
 }
 .ruler.ruler-v.ruler-in{
     background:
-    repeating-linear-gradient(180deg,transparent 0, transparent calc(10in - 1px),#666 calc(10in - 1px), #666 10in,transparent 0, transparent 10in  ) 100% 0% / 10px 100% no-repeat
-    , repeating-linear-gradient(180deg,transparent 0, transparent calc(5in - 1px),#999 calc(5in - 1px), #999 5in,transparent 0, transparent 10in ) 100% 0% / 6px 100% no-repeat
-    , repeating-linear-gradient(180deg,transparent 0, transparent calc(1in - 1px),#ccc calc(1in - 1px), #ccc 1in,transparent 0, transparent 1in ) 100% 0% / 3px 100% no-repeat
-    /* , repeating-linear-gradient(180deg,
+    linear-gradient(180deg,transparent 0, transparent calc(10in - 1px),#666 calc(10in - 1px), #666 10in,transparent 0, transparent 10in  ) 100% 0% / 10px 10in repeat-y
+    , linear-gradient(180deg,transparent 0, transparent calc(5in - 1px),#999 calc(5in - 1px), #999 5in,transparent 0, transparent 10in ) 100% 0% / 6px 10in repeat-y
+    , linear-gradient(180deg,transparent 0, transparent calc(1in - 1px),#ccc calc(1in - 1px), #ccc 1in,transparent 0, transparent 1in ) 100% 0% / 3px 1in repeat-y
+    /* , linear-gradient(180deg,
        transparent 0in, transparent calc(1in - 1px), #ccc calc(1in - 1px), #ccc 1in,
        transparent 1in, transparent calc(2in - 1px), #ccc calc(2in - 1px), #ccc 2in,
        transparent 2in, transparent calc(3in - 1px), #ccc calc(3in - 1px), #ccc 3in,
        transparent 3in, transparent calc(4in - 1px), #ccc calc(4in - 1px), #ccc 4in,
        transparent 0in, transparent 5in
-       ) 100% 0% / 3px 100% no-repeat */
+       ) 100% 0% / 3px 5in repeat-y */
     ;
 }
 
-.ruler.ruler-h.ruler-top{
-  background-position-y: 0% ;
+.ruler.ruler-top{
+  background-position-y: 0% !important;
 }
-.ruler.ruler-h.ruler-bottom{
-  background-position-y: 100% ;
+.ruler.ruler-bottom{
+  background-position-y: 100% !important;
 }
-.ruler.ruler-h.ruler-middle{
-  background-position-y: 50% ;
+.ruler.ruler-middle{
+  background-position-y: 50% !important;
 }
 
-.ruler.ruler-v.ruler-left{
-  background-position-x: 0% ;
+.ruler.ruler-left{
+  background-position-x: 0% !important;
 }
-.ruler.ruler-v.ruler-right{
-  background-position-x: 100% ;
+.ruler.ruler-right{
+  background-position-x: 100% !important;
 }
-.ruler.ruler-v.ruler-center{
-  background-position-x: 50% ;
+.ruler.ruler-center{
+  background-position-x: 50% !important;
 }
